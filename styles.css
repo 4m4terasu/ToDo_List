@@ -5,7 +5,6 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f9f9f9;
-    flex-direction: column; /* Ensure proper layout on mobile */
 }
 
 .sidebar {
@@ -17,7 +16,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px; /* Simplify padding */
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .sidebar.expanded {
@@ -208,55 +209,4 @@ h1 {
 .active-category {
     background-color: rgba(255, 255, 255, 0.1);
 }
-
-/* Mobile Optimization 
-@media (max-width: 768px) {
-    body {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .sidebar {
-        width: 100%;
-        height: auto;
-        position: relative;
-        padding: 10px;
-    }
-
-    .sidebar.expanded {
-        width: 100%;
-    }
-
-    .sidebar-content {
-        padding: 10px;
-    }
-
-    .todo-container {
-        width: calc(100% - 40px);
-        padding: 10px;
-        margin: 10px auto;
-        border-width: 1px;
-    }
-
-    .todo-container input[type="text"] {
-        width: calc(100% - 22px);
-        padding: 8px;
-        margin-bottom: 10px;
-        font-size: 14px;
-    }
-
-    .task-item {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .task-text {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .complete-btn {
-        margin-left: 0;
-        align-self: flex-end;
-    }
-}*/
+/* Test comment */
