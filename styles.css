@@ -237,7 +237,7 @@ h1 {
 }
 
 .night-mode .category-text {
-    color: #bbb; /* Lighter color for better visibility in dark theme */
+    color: yellow; /* Lighter color for better visibility in dark theme */
 }
 
 #addCategoryButton {
