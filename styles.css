@@ -209,4 +209,36 @@ h1 {
 .active-category {
     background-color: rgba(255, 255, 255, 0.1);
 }
-/* Test comment */
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .task-bar {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .category {
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .todo-container {
+        width: 100%;
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    .todo-container input[type="text"] {
+        width: calc(100% - 22px);
+    }
+}
