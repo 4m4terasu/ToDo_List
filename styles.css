@@ -192,6 +192,22 @@ h1 {
     color: #fff;
 }
 
+.night-mode .todo-container {
+    background-color: #333;
+}
+
+.night-mode .todo-container input[type="text"] {
+    background-color: #444;
+    border-color: #555;
+    color: #fff;
+}
+
+.night-mode .task-text {
+    background-color: #444;
+    border-color: #555;
+    color: #fff;
+}
+
 .night-mode .complete-btn {
     border-color: #888;
     background-color: #4d94ff;
@@ -218,6 +234,10 @@ h1 {
 
 .category-text {
     color: #fff;
+}
+
+.night-mode .category-text {
+    color: #bbb; /* Lighter color for better visibility in dark theme */
 }
 
 #addCategoryButton {
