@@ -213,33 +213,13 @@ h1 {
 
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
-    body {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
     .sidebar {
-        width: 50%;
-        height: auto;
-        flex-direction: row;
-        justify-content: space-between;
+        width: 60px; /* Adjusted width for mobile */
         padding: 10px;
-        transition: none;
     }
 
     .sidebar-content {
-        display: none;
-    }
-
-    .sidebar.expanded .sidebar-content {
-        display: block;
-        width: 50%;
-    }
-
-    .task-bar {
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 50%;
+        padding: 10px;
     }
 
     .category {
@@ -248,7 +228,7 @@ h1 {
     }
 
     .todo-container {
-        width: 50%;
+        width: calc(100% - 70px); /* Adjusted width for mobile */
         margin: 0;
         border: none;
         border-radius: 0;
