@@ -219,7 +219,7 @@ h1 {
     }
 
     .sidebar {
-        width: 100%;
+        width: 50%;
         height: auto;
         flex-direction: row;
         justify-content: space-between;
@@ -233,7 +233,7 @@ h1 {
 
     .sidebar.expanded .sidebar-content {
         display: block;
-        width: 100%;
+        width: 50%;
     }
 
     .task-bar {
