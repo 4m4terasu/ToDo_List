@@ -239,7 +239,7 @@ h1 {
     .task-bar {
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
+        width: 50%;
     }
 
     .category {
@@ -248,7 +248,7 @@ h1 {
     }
 
     .todo-container {
-        width: 100%;
+        width: 50%;
         margin: 0;
         border: none;
         border-radius: 0;
